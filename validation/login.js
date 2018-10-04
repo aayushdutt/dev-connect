@@ -20,10 +20,7 @@ module.exports = function validateRegisterInput(data){
   }
 
 
-  return {
-    errors,
-    isValid: isEmpty(errors)
-  }
+  return { errors, isValid: isEmpty(errors) }
 
 
 }
