@@ -5,6 +5,9 @@ body {
 img {
   width: 100%;
 }
+.App {
+  height: 100%;
+}
 
 .landing {
   position: relative;
